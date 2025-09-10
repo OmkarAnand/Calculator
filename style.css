@@ -1,0 +1,185 @@
+body{
+    background-image: url("/Images/calculator.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bigbox{
+    height: 630px;
+    width: 330px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 20px;
+    background: transparent;
+    border: 6px solid rgb(104, 34, 34); 
+}
+ .result{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 150px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+ }
+
+ .numbers{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+ }
+ .row0{
+    flex-direction: column;
+    margin-top: 10px;
+    
+
+ }
+ .row1{
+    flex-direction: column;
+    margin-top:10px;
+    
+ }
+
+ .row2{
+    flex-direction: column;
+    margin-top:20px;
+
+    
+ }
+ .row3{
+    flex-direction: column;
+    margin-top:20px;
+    
+ }
+ .row4{
+    flex-direction: column;
+    margin-top:20px;
+
+ }
+ .one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+ .two{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .three{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .four{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .five{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .six{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .seven{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .eight{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .nine{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .zero{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .dot{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+ .divide{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+   
+ }
+ .multiply{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+
+ }
+ .minus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+
+ }
+ .plus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 95px;
+
+ }
+ .clear1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ .equaltoo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 230px;
+ }
+ .cross1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+   
+ }
+ button:active {
+    box-shadow: 0 0 20px 5px rgba(3, 17, 32, 0.8);  /* Glowing effect */
+    transform: scale(0.95);  /* Slightly shrink the button on click */
+  }
